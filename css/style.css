@@ -82,27 +82,24 @@
     border: 1px solid black;
 }
 
-main section{
-    flex-direction: column;
+#app_main section{
+    flex-direction: row;
     justify-content: center;
-    padding: 5rem 12.5rem;
+    padding: 5rem 10rem;
     align-items: center;
 }
 .card{
-    width: 100%;
+    width: 80%;
     justify-content: center;
 }
 .img{
-    width: calc((100% / 12) * 8);
+    width: 66%;
     padding: 1rem;
     flex-direction: column;
  }
-.img img{
-    width: 80%;
-}
+
 .text{
-    width: calc((100% / 12) * 7);
-    padding: 1rem;
+    width: 49%;
 }
 .text h3{
     color: #23272a;
@@ -116,7 +113,7 @@ main section{
     font-size: 20px;
     line-height: 3rem;
 }
-.area_text div{
+.text div{
     display: flex;
     flex-direction: column;
     align-self: center;
@@ -133,17 +130,17 @@ main section{
 .wave-1hkxOo{
     margin-bottom: -5px;
 }
-.second{
+.section_second{
     background-color: #f6f6f6;
 }
-.second .img{
+.section_second .img{
     order: 1;
 }
 
-section .third{
+section .section_third{
     background-color: white;
 }
-.third .img{
+.section_third .img{
     order: -1;
 }
 
