@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
 }
 
 .debug #app_header{
@@ -136,6 +138,7 @@
     height: 22rem;
     border: 1px dashed black;
 }
+
 
 
 
