@@ -70,112 +70,121 @@
     border: 1px solid black;
 }
 
-.debug > main .section_first{
-    height: 26rem;
-    background-color: white;
-    border: 1px solid black;
-    width: 100%;
-}
-
-.debug > main .section_second{
-    height: 26rem;
-    background-color: #d3d3d3;
-    border: 1px solid black;
-    width: 100%;
-}
-
-.debug > main .section_third{
-    height: 26rem;
-    background-color: white;
-    border: 1px solid black;
-    width: 100%;
-}
-
-.debug > main .section_fourth{
-    height: 44rem;
-    background-color: #d3d3d3;
-    border: 1px solid black;
-    width: 100%;
-}
-
-.debug .green_section{
-    background-color: #228b22;
-    width: 62.5%;
-    border: 1px dashed black;
-    height: 40rem;
-    margin: 2rem auto;
-}
-
-.banner{
+main section{
+    flex-direction: column;
     justify-content: center;
+    padding: 80px 200px;
     align-items: center;
-    padding: 2rem 0;
 }
-
-.banner h1{
-    font-size: 3rem;
-    padding: 1rem 0;
+.card{
+    width: 100%;
+    justify-content: center;
 }
-.banner p{
-    font-size: 1rem;
-    padding: 1rem 0;
+.img{
+    width: calc((100% / 12) * 8);
+    padding: 1rem;
+    flex-direction: column;
+ }
+.img img{
+    width: 80%;
 }
-
-.banner button{
-    border-radius: 1.5rem;
-    padding: 0.5rem 1rem;
-    border: 0;
+.text{
+    width: calc((100% / 12) * 7);
+    padding: 1rem;
 }
-
-.download{
-    background-color: #white;
-    color: #646668;
+.text h3{
+    color: #23272a;
+    max-width: 50%;
+    font-size: 50px;
+    line-height: 4rem;   
 }
-.open{
-    background-color: #23272a;
+.text p{
+    color: #23272a;
+    max-width: 50%;
+    font-size: 20px;
+    line-height: 3rem;
+}
+.area_text div{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+.wavePath-haxJK1{
     color: white;
 }
-
-.content1, .content2, .content3{
-    width: 62.5%;
-    margin: 2rem auto;
+.waverotate{
+        transform: rotate(180deg);
+}
+/* section first */
+.section_first{
+    background-color: white;
+}
+.section_first .img{
+    order: -1;
 }
 
-.left{
-    background-color: #1e90ff;
-    float: left;
-    width: calc((100% / 12) * 8);
-    border: 1px dashed black;
+.wave-1hkxOo{
+    margin-bottom: -5px;
 }
-
-.right{
-    background-color: #ffc0cb;
-    width: calc((100% / 12) * 4);
-    border: 1px dashed black;    
+.second{
+    background-color: #f6f6f6;
 }
-
-.left, .right{
-    display: inline-block;
-    height: 22rem;
+.second .img{
+    order: 1;
 }
-
-.leftgrey{
-    background-color: #ffc0cb;
-    width: calc((100% / 12) * 4);
+/* third section */
+section .third{
+    background-color: white;
 }
-
-.rightgrey{
-    background-color: #1e90ff;
-    float: right;
-    width: calc((100% / 12) * 8);
+.third .img{
+    order: -1;
 }
-
-.leftgrey, .rightgrey{
-    display: inline-block;
-    height: 22rem;
-    border: 1px dashed black;
+/* fourth section */
+.section_fourth{
+    background-color: #f6f6f6;
 }
-
+.fourth_card{
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+}
+.fourth_card .d-flex{
+    align-items: center;
+}
+.fourth_card div{
+    text-align: center;
+}
+.button{
+    background-image: url(../img/stars.svg);
+    background-repeat:repeat-x;
+    background-size: contain;
+}
+.section_fourth .text{
+    order: -1;
+    width: 100%;
+}
+.section_fourth h3{
+    text-align: center;
+}
+.section_fourth h4{
+    color: black;
+    font-size: 30px;
+    text-align: center;
+}
+.section_fourth p{
+    text-align: center;
+}
+.section_fourth button{
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.download, .registrati{
+    background-color: white;
+    border: 0;
+    border-radius: 30px;
+    font-size: 20px;
+    padding: 15px 30px;
+}
 #app_footer{
     background-color: #23272a;
 }
