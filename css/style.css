@@ -62,6 +62,18 @@
     height: 16rem;
    text-align: center;
 }
+.accedi{
+    border-radius: 1.75rem;
+    font-size: 1.4rem;
+    padding: 1rem 2rem;
+    border: 0;
+    color: black;
+}
+
+.open{
+    background-color: #23272a;
+    color: white;
+}
 /* main */
 
 .debug .banner{
@@ -73,7 +85,7 @@
 main section{
     flex-direction: column;
     justify-content: center;
-    padding: 80px 200px;
+    padding: 5rem 12.5rem;
     align-items: center;
 }
 .card{
@@ -109,12 +121,7 @@ main section{
     flex-direction: column;
     align-self: center;
 }
-.wavePath-haxJK1{
-    color: white;
-}
-.waverotate{
-        transform: rotate(180deg);
-}
+
 /* section first */
 .section_first{
     background-color: white;
@@ -132,14 +139,14 @@ main section{
 .second .img{
     order: 1;
 }
-/* third section */
+
 section .third{
     background-color: white;
 }
 .third .img{
     order: -1;
 }
-/* fourth section */
+
 .section_fourth{
     background-color: #f6f6f6;
 }
@@ -168,22 +175,23 @@ section .third{
 }
 .section_fourth h4{
     color: black;
-    font-size: 30px;
+    font-size: 1rem;
     text-align: center;
 }
 .section_fourth p{
     text-align: center;
 }
 .section_fourth button{
-    margin-top: 30px;
-    margin-bottom: 40px;
+    margin-top: 1 rem;
+    margin-bottom: 2.5rem;
 }
 .download, .registrati{
     background-color: white;
     border: 0;
-    border-radius: 30px;
-    font-size: 20px;
-    padding: 15px 30px;
+    border-radius: 2rem;
+    font-size: 1rem;
+    padding: 1rem 2rem;
+    color: #23272a;
 }
 #app_footer{
     background-color: #23272a;
