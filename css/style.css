@@ -3,6 +3,8 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: white;
+    text-decoration: none;
 
 }
 
@@ -26,6 +28,7 @@
 .d-flex{
     display:flex;
 }
+
 
 .logo, .login{
     width: 20%;
@@ -139,7 +142,79 @@
     border: 1px dashed black;
 }
 
+#app_footer{
+    background-color: #23272a;
+}
 
+.f-top{
+    display:flex;
+    justify-content: space-around;
+    margin: 0 3rem;
+    border-bottom: 1px solid #7289da;
+    align-items: baseline;
+}
 
+.f-top ul{
+    list-style-type: none;
+}
 
+.principal{
+    width: calc((100% / 12) * 4)
+    padding: 5rem;
+}
+
+.product,
+.company,
+.resources,
+.rules{
+    width: calc((100%/12) * 2);
+    padding: 5rem;
+}
+
+.product{
+    flex-direction: column;
+}
+
+.principal h4{
+    color: #7289da;
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
+
+.product li:first-child a{
+    color:#7289da;
+}
+.product li{
+    padding-bottom: 1rem;
+}
+
+.company li:first-child a{
+    color:#7289da;
+}
+
+.company li{
+    padding-bottom: 1rem;
+}
+
+.resources li:first-child a{
+    color: #7289da;
+}
+
+.resources li{
+    padding-bottom: 1rem;
+}
+
+.rules li:first-child a{
+    color: #7289da;
+}
+
+.rules li{
+    padding-bottom: 1rem;
+}
+
+.f-bottom{
+    padding: 2rem 0;
+    justify-content: space-between;
+}
+  
 
