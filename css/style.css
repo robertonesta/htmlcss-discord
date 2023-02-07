@@ -5,23 +5,30 @@
     font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
     color: white;
     text-decoration: none;
-
 }
 
 .debug #app_header{
     background-color: lightblue;
     border: 1px solid black;
-    
 }
+
+#app_header{
+    flex-direction: column;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-position: center;
+}
+
 .debug > header > div {
     height: 1.5rem;
     background-color: orange;
     border: 1px dashed black;
     margin-top: 0.5rem;
 }
+
 .container {
     width: 62.5%;
-    margin: auto;
+    margin: 2 auto;
     padding: 0.2rem;
 }
 
@@ -52,8 +59,6 @@
 .first-text {
     width: 48%;
     margin: auto;
-    background-color: #ee82ee;
-    border: 1px dashed black;
     height: 16rem;
    text-align: center;
 }
@@ -101,6 +106,35 @@
     margin: 2rem auto;
 }
 
+.banner{
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+}
+
+.banner h1{
+    font-size: 3rem;
+    padding: 1rem 0;
+}
+.banner p{
+    font-size: 1rem;
+    padding: 1rem 0;
+}
+
+.banner button{
+    border-radius: 1.5rem;
+    padding: 0.5rem 1rem;
+    border: 0;
+}
+
+.download{
+    background-color: #white;
+    color: #646668;
+}
+.open{
+    background-color: #23272a;
+    color: white;
+}
 
 .content1, .content2, .content3{
     width: 62.5%;
